@@ -1,6 +1,6 @@
 {
   "name": "Default product template",
-  "section": {
+  "sections": {
     "main": {
       "type": "main-product"
     }

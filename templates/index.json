@@ -2,7 +2,10 @@
   "sections": {
     "test": {
       "type": "test"
+    },
+    "test2": {
+      "type": "test2"
     }
   },
-  "order": ["test"]
+  "order": ["test", "test2"]
 }

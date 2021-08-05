@@ -1,0 +1,18 @@
+{% for product in  section.settings.featured_collection %}
+  <h1>
+    {{product.title}}
+  </h1>
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Featured Collection",
+  "settings": [
+    {
+      "id": "featured_collection",
+      "type": "collection",
+      "label": "Featured collection"
+    }
+  ]
+}
+{% endschema %}

@@ -1,15 +1,5 @@
 {
   "sections": {
-    "test2": {
-      "type": "test2",
-      "settings": {
-      }
-    },
-    "test": {
-      "type": "test",
-      "settings": {
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -17,9 +7,5 @@
       }
     }
   },
-  "order": [
-    "test2",
-    "test",
-    "featured-collection"
-  ]
+  "order": ["featured-collection"]
 }

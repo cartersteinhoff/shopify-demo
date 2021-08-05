@@ -1,9 +1,8 @@
 {% for product in  section.settings.collection.products %}
-  <h1>yes</h1>
-  <h1>
-    {{ product.title }}
-    {{ product.url }}
-  </h1>
+  <p>
+    <a href="{{ product.url }}">{{ product.title }}</a>
+  </p>
+  <img src="{{ product.featured_image | img_url: "1000x" }}" loading="lazy" alt="{{ product.title }}" width="300" height="300"/>
 {% endfor %}
 
 {% schema %}

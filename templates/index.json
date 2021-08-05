@@ -1,11 +1,18 @@
 {
   "sections": {
-    "test": {
-      "type": "test"
-    },
     "test2": {
-      "type": "test2"
+      "type": "test2",
+      "settings": {
+      }
+    },
+    "test": {
+      "type": "test",
+      "settings": {
+      }
     }
   },
-  "order": ["test", "test2"]
+  "order": [
+    "test2",
+    "test"
+  ]
 }

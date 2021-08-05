@@ -1,6 +1,8 @@
-{% for product in  section.settings.featured_collection %}
+{% for product in  section.settings.collection.products %}
+  <h1>yes</h1>
   <h1>
-    {{product.title}}
+    {{ product.title }}
+    {{ product.url }}
   </h1>
 {% endfor %}
 
@@ -9,7 +11,7 @@
   "name": "Featured Collection",
   "settings": [
     {
-      "id": "featured_collection",
+      "id": "collection",
       "type": "collection",
       "label": "Featured collection"
     }

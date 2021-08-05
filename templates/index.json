@@ -2,16 +2,24 @@
   "sections": {
     "test2": {
       "type": "test2",
-      "settings": {}
+      "settings": {
+      }
     },
     "test": {
       "type": "test",
-      "settings": {}
+      "settings": {
+      }
     },
     "featured-collection": {
       "type": "featured-collection",
-      "settings": {}
+      "settings": {
+        "collection": "primary"
+      }
     }
   },
-  "order": ["test2", "test", "featured-collection"]
+  "order": [
+    "test2",
+    "test",
+    "featured-collection"
+  ]
 }

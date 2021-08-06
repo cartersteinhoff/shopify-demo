@@ -2,8 +2,12 @@
 <html>
   <head>
     {{ content_for_header }}
-  </head>
+  
+	{{ shop.metafields.loox["global_html_head"] }}
+</head>
   <body>
     {{ content_for_layout }}
-  </body>
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
 </html>
